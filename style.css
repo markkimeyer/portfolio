@@ -4,9 +4,11 @@ body
 
 }
 .img-thumb {
-    width: 100%;
-    height: auto;
+    
     border: solid 8px #b7cfcf;
+  max-width: 35%;
+  float: left;
+  margin-right: 1%
 }
 
 img.gallery{
@@ -50,6 +52,7 @@ button:hover {
     height: 352px;
    
 }
+
 p {
   
     color: rgb(25, 43, 43);
@@ -58,7 +61,7 @@ p {
 
 }
 #project-four-p {
-    font-size: 14px;
+    font-size: 17px;
    
 }
 
