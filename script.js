@@ -47,6 +47,18 @@ $(document).on("click", "#project-three-repo", function () {
     window.open("https://github.com/markkimeyer/codeQUIZ");
 })
 
+//On click project4 repo 
+
+$(document).on("click", "#project-four-repo", function () {
+    window.open("https://github.com/markkimeyer/park-pack");
+    
+})
+
+//On click project 4 live page
+$(document).on("click", "#project-four-live", function () {
+    window.open("https://park-pack.herokuapp.com/");
+})
+
 //email pop up form
 $(document).on("click", "#mailchimp", function () {
     window.open("https://us1.list-manage.com/contact-form?u=ab348f2b61785522dbd6bdd88&form_id=73c9c3b608e09594c381e853f8e5ce8d");
@@ -54,7 +66,7 @@ $(document).on("click", "#mailchimp", function () {
 
 //resume link to google doc  "resume"
 $(document).on("click", "#resume", function () {
-    window.open("https://drive.google.com/file/d/1V8nwHXaHcTvJLf5I8pivfCqoQdf-blCp/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1iuBT4nv_iKdN_vfQtl9GczDmbSgFbcrt/view?usp=sharing");
 })
 //linked in link 
 $(document).on("click", "#linkedin", function () {
